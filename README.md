@@ -1,6 +1,6 @@
 # Sujet de TP Angular 
 Tp réaliser par Corentin Millard et Thomas Gufflet
-pour lancer le tp, se rendre dans le dossier pokedemo et lancer les commande 
+pour lancer le tp, se rendre dans le dossier pokedemo et lancer la commande 
 ```bash
 ng serve
 ```
