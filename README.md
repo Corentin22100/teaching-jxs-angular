@@ -1,5 +1,10 @@
 # Sujet de TP Angular 
-
+Tp réaliser par Corentin Millard et Thomas Gufflet
+pour lancer le tp, se rendre dans le dossier pokedemo et lancer les commande 
+```bash
+ng serve
+```
+puis se rendre sur http://localhost:4200
 ![](https://github.com/barais/teaching-jxs-angular/raw/master/img/banner.png)
 
 Votre aventure dans le monde merveilleux des frameworks JavaScript commence avec Angular.
@@ -149,11 +154,11 @@ attribut du composant sur la page.
 Ajoutez {{id}} quelque part au sein de cotre template de votre composant (my-component-component.html ). 
 
 Vous constaterez que dès que l'input est modifié par l'utilisateur, la vue contenant la valeur de l'id est elle aussi modifiée. 
-
+exactement, ça s'actualise directement sans rechargé la page
 ### Q3 : 
 
 Créer un deuxième champs input en mode readonly et lié les deux par un id.  Afficher la valeur de l'id renseigné dans la balise *&lt;input>* venant d'être insérée.
-
+il affiche simplement ce qu'on rentre dans l'autre champ
 
 ### Q3bis :
 
@@ -334,6 +339,8 @@ d'un pokémon peut maintenant souscrire à cet observable pour détecter le chan
 ## Intégration de composants open source
 
 ### Q17: 
+Nous avons utilisé la librairie primeNG et nous avons utiliser le composant <p-card> qui affiche le pokemon choisi dans un composant open source.
+
 La richesse d'Angular réside également dans son écosystème de librairies de composants réutilisables et open source.
 
 * Vous allez maintenant intégrer un composant Angular issue d'une librairie open source dans votre application. 
